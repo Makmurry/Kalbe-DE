@@ -1,6 +1,9 @@
-![logo rakamin](https://github.com/Makmurry/Kalbe-DE/blob/main/image/logo%20rakamin.png)  | ![logo kalbe](https://github.com/Makmurry/Kalbe-DE/blob/main/image/Kalbe_Nutritionals.png) 
+
+<img src="https://github.com/Makmurry/Kalbe-DE/blob/main/image/logo%20rakamin.png" alt="rakamin" width="300px">|<img src="https://github.com/Makmurry/Kalbe-DE/blob/main/image/Kalbe_Nutritionals.png" alt="kalbe" width="300px">
+
 
 **Presentasi Proyek dapat Anda akses [disini](https://www.canva.com/design/DAFtXs_YtHQ/MoG_73aEi34qqWuwHEDE5A/view?utm_content=DAFtXs_YtHQ&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink)**
+
 
 ##Challenge 1
 
@@ -161,7 +164,7 @@ fi
 Complete the below Syntax {Highlighted Sentence} to insert data from Python to MySQL.
 ![task3](https://github.com/Makmurry/Kalbe-DE/blob/main/image/task3.jpg)
 
-**Lihat Script Pyhton [disini]https://github.com/Makmurry/Kalbe-DE/blob/main/final_project_python_to_sql.py)**
+**Lihat Script Pyhton [disini](https://github.com/Makmurry/Kalbe-DE/blob/main/final_project_python_to_sql.py)**
 
 ## Challenge 4
 
