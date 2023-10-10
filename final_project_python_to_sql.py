@@ -6,8 +6,8 @@ import psycopg2.extras
 hostname = 'localhost'
 database = 'kalbe'
 username = 'postgres'
-pwd = '1234'
-port_id = 5434
+pwd = 'your password'
+port_id = your_port
 conn = None
 
 # Melakukan percobaan koneksi
