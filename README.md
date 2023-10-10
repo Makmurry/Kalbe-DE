@@ -1,10 +1,12 @@
 
 <div style="display: flex; justify-content: space-between; align-items: center;">
-  <img src="https://github.com/Makmurry/Kalbe-DE/blob/main/image/logo%20rakamin.png" alt="rakamin" width="100px">
-  <br>
-  <img src="https://github.com/Makmurry/Kalbe-DE/blob/main/image/Kalbe_Nutritionals.png" alt="kalbe" width="100px">
+  <img src="https://github.com/Makmurry/Kalbe-DE/blob/main/image/logo%20rakamin.png" alt="rakamin" width="200px">
+
+
+ 
+  <img src="https://github.com/Makmurry/Kalbe-DE/blob/main/image/Kalbe_Nutritionals.png" alt="kalbe" width="200px">
 </div>
----
+
 
 **Presentasi Proyek dapat Anda akses [disini](https://www.canva.com/design/DAFtXs_YtHQ/MoG_73aEi34qqWuwHEDE5A/view?utm_content=DAFtXs_YtHQ&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink)**
 ---
