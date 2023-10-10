@@ -1,6 +1,6 @@
-![logo rakamin](image.jpg)  | ![logo kalbe](image.jpg) 
+![logo rakamin](https://github.com/Makmurry/Kalbe-DE/blob/main/image/logo%20rakamin.png)  | ![logo kalbe](https://github.com/Makmurry/Kalbe-DE/blob/main/image/Kalbe_Nutritionals.png) 
 
-** Presentasi Proyek dapat Anda akses [disini](https://www.canva.com/design/DAFtXs_YtHQ/MoG_73aEi34qqWuwHEDE5A/view?utm_content=DAFtXs_YtHQ&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink)**
+**Presentasi Proyek dapat Anda akses [disini](https://www.canva.com/design/DAFtXs_YtHQ/MoG_73aEi34qqWuwHEDE5A/view?utm_content=DAFtXs_YtHQ&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink)**
 
 ##Challenge 1
 
@@ -21,7 +21,7 @@ Create a shell/bash script to check whether a directory exists inside a given pa
 - Create a crontab syntax to run the script at 07:00 AM Daily.
 
 ---
-** Membuat direktori bernama source**
+**Membuat direktori bernama source**
 ```bash
 mkdir source
 ```
@@ -29,12 +29,12 @@ mkdir source
 ```bash
 cd source
 ```
-**Membuat file dengan nama daily_market_price.xlsx **
+**Membuat file dengan nama daily_market_price.xlsx**
 ```bash
 touch daily_market_price.xlsx
 ```
 
-** kembali ke parent direktori **
+**Kembali ke parent direktori **
 ```bash
 cd /home/project
 ```
@@ -42,7 +42,7 @@ cd /home/project
 ```bash
 touch data_management_script.sh
 ```
-**Cek path saat ini menggunakan perintah : **
+**Cek path saat ini menggunakan perintah :**
 ```bash
 pwd
 ```
@@ -74,9 +74,9 @@ chmod +x data_management_script.sh
 ```bash
 ./data_management_script.sh
 ```
-###Direktori data1 telah berhasil dibuat
+**Direktori data1 telah berhasil dibuat**
 ---
- #### CRONTAB SYNTAX: 
+ **CRONTAB SYNTAX:** 
 
 - Ketik pada terminal :
 ```bash
@@ -107,7 +107,7 @@ Using the script from question number 1, add another condition if a directory ex
 - Copy the file from the source directory into the target directory.
 - Create a log file inside the same path with "File Moved Successfully" as a log content if successful.
 
-####Ubah isi file task 1 menjadi seperti berikut : 
+**Ubah isi file task 1 menjadi seperti berikut :**
 ---
 ```bash
 #!/bin/bash
@@ -159,9 +159,9 @@ fi
 ## Challenge 3
 
 Complete the below Syntax {Highlighted Sentence} to insert data from Python to MySQL.
-![task3](image.jpg)
+![task3](https://github.com/Makmurry/Kalbe-DE/blob/main/image/task3.jpg)
 
-** Lihat Script Pyhton [disini](URL)**
+**Lihat Script Pyhton [disini]https://github.com/Makmurry/Kalbe-DE/blob/main/final_project_python_to_sql.py)**
 
 ## Challenge 4
 
@@ -177,7 +177,7 @@ Convert this instruction into SQL Query Language.
 - Choose appropriate data types and lengths according to best practice.
 - Choose one unique column as a primary key and decide column constraints.
 - Insert the provided data into the table:
-![task4](image.jpg)
+![task4](https://github.com/Makmurry/Kalbe-DE/blob/main/image/task4.jpg)
 - Show Item_name that has the highest number in Item_total.
 - Update the Item_price of the output of the question bullet.
 - Describe what will happen if we insert another Item_name with Item_code of 2343 into the table.
@@ -202,13 +202,13 @@ VALUES
     (2344, 'Blackmores Vit C 500Mg', 95000, 45),
     (2345, 'Entrasol Gold 370G', 90000, 120);
 ```
-** Menampilkan Item_name dengan jumlah tertinggi dalam kolom Item_total: **
+**Menampilkan Item_name dengan jumlah tertinggi dalam kolom Item_total:**
 ```sql
 SELECT Item_name
 FROM Inventory
 WHERE Item_total = (SELECT MAX(Item_total) FROM inventory);
 ```
-** Mengupdate Item_price dari hasil pertanyaan sebelumnya:
+**Mengupdate Item_price dari hasil pertanyaan sebelumnya:
 Kasus: Memberikan diskon 10% pada semua item dengan item_total > 100**
 ```sql
 UPDATE inventory
@@ -221,7 +221,7 @@ INSERT INTO Inventory (Item_code, Item_name)
 VALUES (2343, 'new_item');
 ```
 ---
-**Note : **
+**Note :**
 Jika kita mencoba menyisipkan data baru dengan Item_code 2343 yang sudah ada sebelumnya, maka akan mengalami kesalahan unik karena Item_code diatur sebagai PRIMARY KEY. 
 Tabel tersebut hanya bisa memiliki satu baris dengan Item_code yang sama sebagai PRIMARY KEY,  dan mencoba menyisipkan baris baru dengan nilai yang sama akan menghasilkan kesalahan.
 
@@ -234,14 +234,14 @@ WHERE Item_total = (SELECT MIN(Item_total) FROM Inventory);
 ## Challenge 5
 
 Create a query to display all customer orders where the purchase amount is less than 100 or exclude those orders where the order date is on or greater than 25 Aug 2022 and the customer ID is above 2001.
-![task5](image.jpg)
+![task5](https://github.com/Makmurry/Kalbe-DE/blob/main/image/task5.jpg)
 
 **Sample table:**
 - Table Name: customer_orders
 
 ---
 
-** Membuat tabel customer_orders: **
+**Membuat tabel customer_orders:**
 ```sql
 CREATE TABLE customer_orders (
     order_no INT PRIMARY KEY,
@@ -279,7 +279,7 @@ Kueri ini akan menampilkan semua pesanan pelanggan yang memenuhi salah satu atau
 
 Please explain what is wrong with this picture and give the best solution for this case.
 
-![task6](image.jpg)
+![task6](https://github.com/Makmurry/Kalbe-DE/blob/main/image/task6.jpg)
 
 **Berdasarkan gambar, kesalahan mungkin terletak pada :**
 
@@ -299,10 +299,9 @@ Pada kasus ini tampilan output yang diharapkan adalah :
 
 Create a simple star schema for the KALBE database consisting of 1 Fact and 5 Dimensions using Physical Data Model Theory.
 
-![task7](image.jpg)
 
-![ERD task7](image.jpg)
+![ERD task7](https://github.com/Makmurry/Kalbe-DE/blob/main/image/ERD%20task7.jpg)
 
-** Lihat ERD [disini](https://dbdiagram.io/d/simple-star-schema-6525138dffbf5169f062ce86)**
+**Lihat pembuatan simple star schema (ERD) [disini](https://dbdiagram.io/d/simple-star-schema-6525138dffbf5169f062ce86)**
 
 
