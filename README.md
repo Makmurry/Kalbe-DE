@@ -1,15 +1,15 @@
 
 <div style="display: flex; justify-content: space-between; align-items: center;">
-  <img src="https://github.com/Makmurry/Kalbe-DE/blob/main/image/logo%20rakamin.png" alt="rakamin" width="300px">
-  <img src="https://github.com/Makmurry/Kalbe-DE/blob/main/image/Kalbe_Nutritionals.png" alt="kalbe" width="300px">
+  <img src="https://github.com/Makmurry/Kalbe-DE/blob/main/image/logo%20rakamin.png" alt="rakamin" width="100px">
+  <br>
+  <img src="https://github.com/Makmurry/Kalbe-DE/blob/main/image/Kalbe_Nutritionals.png" alt="kalbe" width="100px">
 </div>
-
-
+---
 
 **Presentasi Proyek dapat Anda akses [disini](https://www.canva.com/design/DAFtXs_YtHQ/MoG_73aEi34qqWuwHEDE5A/view?utm_content=DAFtXs_YtHQ&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink)**
+---
 
-
-**Challenge 1**
+## Challenge 1
 
 Create a shell/bash script to check whether a directory exists inside a given path.
 
