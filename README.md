@@ -170,7 +170,7 @@ fi
 Complete the below Syntax {Highlighted Sentence} to insert data from Python to MySQL.
 ![task3](https://github.com/Makmurry/Kalbe-DE/blob/main/image/task3.jpg)
 
-**Lihat Script Pyhton [disini](https://github.com/Makmurry/Kalbe-DE/blob/main/final_project_python_to_sql.py)**
+## Lihat Script Pyhton [disini](https://github.com/Makmurry/Kalbe-DE/blob/main/final_project_python_to_sql.py)
 
 ## Challenge 4
 
@@ -311,6 +311,6 @@ Create a simple star schema for the KALBE database consisting of 1 Fact and 5 Di
 
 ![ERD task7](https://github.com/Makmurry/Kalbe-DE/blob/main/image/ERD%20task7.jpg)
 
-**Lihat pembuatan simple star schema (ERD) [disini](https://dbdiagram.io/d/simple-star-schema-6525138dffbf5169f062ce86)**
+## Lihat pembuatan simple star schema (ERD) [disini](https://dbdiagram.io/d/simple-star-schema-6525138dffbf5169f062ce86)
 
 
